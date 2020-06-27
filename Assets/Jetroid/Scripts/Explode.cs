@@ -35,6 +35,17 @@ public class Explode : MonoBehaviour
     }
     
     
+    // this method is to destroy the player if he hits an alien
+    //alien prefab tag is set to deadly
+    private void OnCollisionEnter2D(Collision2D target)
+    {
+        if (target.gameObject.tag == "Deadly")
+        {
+            OnExplode();
+        }
+    }
+    
+    
     // to explode when deadly things are touched
     void OnExplode()
     {

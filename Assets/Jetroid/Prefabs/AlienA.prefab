@@ -60,6 +60,36 @@ Transform:
   m_Father: {fileID: 997654773290362771}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2084937048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084937049}
+  m_Layer: 0
+  m_Name: StartSight
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084937049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084937048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.17, y: -7.69, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 997654773290362771}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4468302415905737703
 GameObject:
   m_ObjectHideFlags: 0
@@ -76,9 +106,9 @@ GameObject:
   - component: {fileID: 2196669302714309692}
   - component: {fileID: 2196669302714309696}
   - component: {fileID: 343344268}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AlienA
-  m_TagString: Untagged
+  m_TagString: Deadly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,10 +122,11 @@ Transform:
   m_GameObject: {fileID: 4468302415905737703}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 79.018425, y: -71.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
   - {fileID: 1257320600}
   - {fileID: 422441246}
+  - {fileID: 2084937049}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -229,7 +260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9a6cc5e47da31a06b9e66d4b8cd05da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sightStart: {fileID: 997654773290362771}
+  sightStart: {fileID: 2084937049}
   SightEnd: {fileID: 1257320600}
   layer: Solid
   isCollisionNeeded: 1
@@ -245,7 +276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9a6cc5e47da31a06b9e66d4b8cd05da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sightStart: {fileID: 997654773290362771}
+  sightStart: {fileID: 2084937049}
   SightEnd: {fileID: 422441246}
   layer: Solid
   isCollisionNeeded: 0
