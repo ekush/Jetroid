@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: sprite-atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 3abd7c4998efa9b3e9cfa8310544726f, type: 3}
+    totalSpriteSurfaceArea: 1483884
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4c198cc0de39d8a309b87cc7f8f04fed, type: 3}
+  - {fileID: 21300000, guid: e798b4d0db8a8211eb7b0df531d4a679, type: 3}
+  - {fileID: 21300000, guid: a1b848d0e9acb17da9b3b7742a869456, type: 3}
+  - {fileID: 21300000, guid: 4f9829f0476e5001c9d2117023d59d53, type: 3}
+  - {fileID: 21300000, guid: 9b5e4f010107be82c96cc8c8841e02a5, type: 3}
+  - {fileID: 21300000, guid: e7ce9ec1cf9f1c443942001da1602fc6, type: 3}
+  - {fileID: 21300000, guid: eb753d42b1c49e8278d962bfd4121d1c, type: 3}
+  - {fileID: 21300000, guid: 902cac43f07a7127495b7b40065346c8, type: 3}
+  - {fileID: 21300000, guid: ee637353760c8908392564449b316c8b, type: 3}
+  - {fileID: 21300000, guid: 1aabfd73b93b3ea3d9bc9d1c00b5e264, type: 3}
+  - {fileID: 21300000, guid: 4cd770b3ff6c60b34ae923f6ed806373, type: 3}
+  - {fileID: 21300000, guid: 6ed9b2f36ed8e64748f1e94ab9f10a85, type: 3}
+  - {fileID: 21300000, guid: e67107f320da2ddde8525c5dd9e7a842, type: 3}
+  - {fileID: 21300000, guid: f8888544261352b14b77f3152ec965dd, type: 3}
+  - {fileID: 21300000, guid: cd5a8d54a84a4f43a8a1bab4cd071fa3, type: 3}
+  - {fileID: 21300000, guid: 7c60a7150c075fd9fbbe559ed92f50d8, type: 3}
+  - {fileID: 21300000, guid: 1f8bd04522ece16138a1f5fc8aac667f, type: 3}
+  - {fileID: 21300000, guid: 73b6acd5dcfe65f6481b875c54490aca, type: 3}
+  - {fileID: 6136173041846163417, guid: 05fbcee53a2ec7fc89687aa05cade12f, type: 3}
+  - {fileID: 1573228798759946831, guid: 05fbcee53a2ec7fc89687aa05cade12f, type: 3}
+  - {fileID: -2197375248121754816, guid: 05fbcee53a2ec7fc89687aa05cade12f, type: 3}
+  - {fileID: 8530706350158813110, guid: 05fbcee53a2ec7fc89687aa05cade12f, type: 3}
+  - {fileID: 2918917116016054090, guid: 05fbcee53a2ec7fc89687aa05cade12f, type: 3}
+  - {fileID: 21300000, guid: 532b4906240abc0539309c80a1b7f627, type: 3}
+  - {fileID: 21300000, guid: db911bb6641ee677999dff11118b3465, type: 3}
+  - {fileID: 21300000, guid: b6bd99c6c2835a1828fa6e5d21c73b53, type: 3}
+  - {fileID: 21300000, guid: a20749e65fb3df6b7ad2b3395bca0898, type: 3}
+  - {fileID: 21300000, guid: ec1f93374f7fafe3fb514fc8d06912e0, type: 3}
+  - {fileID: 21300000, guid: df7ceaa706c9bf2358079f4c165e9a59, type: 3}
+  - {fileID: 21300000, guid: 221c4ba7af72e89aea39e71d78a05f2b, type: 3}
+  - {fileID: 21300000, guid: e60f10f7102eaed1e9e8fe2d7c60c7a9, type: 3}
+  - {fileID: 21300000, guid: 6dbeeec8bbee6bba3b95834af20eaf09, type: 3}
+  - {fileID: 21300000, guid: 392056297178b701d94b471d8b0f1bbe, type: 3}
+  - {fileID: 21300000, guid: 4f2c1a29568d26cf1aceca3189750656, type: 3}
+  - {fileID: 21300000, guid: 423eaf69de81eb0c1a09560859f739ef, type: 3}
+  - {fileID: 21300000, guid: c4bb35792d59f9f3c93b1efde971c117, type: 3}
+  - {fileID: 21300000, guid: 60944399cded2c779b1f4b873e19ce2a, type: 3}
+  - {fileID: 21300000, guid: 1c08ba996199ef8f9808e1720ce6bb1e, type: 3}
+  - {fileID: 21300000, guid: 506defb95c2cc03dfb06d1f271d84185, type: 3}
+  - {fileID: 21300000, guid: 22941fc9708876401a8740789040a560, type: 3}
+  - {fileID: 21300000, guid: 531cd32a83a7dca74b0193a7ac1a392d, type: 3}
+  - {fileID: 21300000, guid: 681aa22b065a68b528a13f77f4b70657, type: 3}
+  - {fileID: 21300000, guid: bc26e13bf75daf49cae2de0b88885441, type: 3}
+  - {fileID: 21300000, guid: 0663023b411d7ee0bbb2301453d05b2d, type: 3}
+  - {fileID: 21300000, guid: 0a1f454bbe76eee9a80c31ac0dcf35f7, type: 3}
+  - {fileID: 21300000, guid: 59f3cd5b9bc98b5b688a46a5be01ca11, type: 3}
+  - {fileID: 21300000, guid: 87a6fa7bf750b6ababc5efaf4df5043f, type: 3}
+  - {fileID: 21300000, guid: b14c78ab537f6cb2d83cea8345328698, type: 3}
+  - {fileID: 21300000, guid: 0a0413fbbde587f8d81323329ed88364, type: 3}
+  - {fileID: 21300000, guid: 6f846dfb97ea30546b13bdc4e5785711, type: 3}
+  - {fileID: 21300000, guid: 9f62b36c3c312029abf21b84a21f67d8, type: 3}
+  - {fileID: 21300000, guid: 58e259ecba68a1e29ae02a91f74b058d, type: 3}
+  - {fileID: 21300000, guid: 3555c98d1814112c4ae350fd77432a04, type: 3}
+  - {fileID: 21300000, guid: 6671e8aecda1e30abbbeb0e030e9b347, type: 3}
+  - {fileID: 21300000, guid: 89e1e4de1d8965e91a5140478c093792, type: 3}
+  - {fileID: 21300000, guid: 5c2849ee13d8c2ebcbbff2fec9bac474, type: 3}
+  - {fileID: 21300000, guid: f647cdee4699c3122839e98948a7cf53, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - player-walk-02
+  - player-waiting-08
+  - title
+  - spikes
+  - alien-a-01
+  - player-jet-empty-00
+  - splash-player-2
+  - debris-6
+  - debris-5
+  - player-waiting-02
+  - player-waiting-01
+  - player-waiting-00
+  - debris-3
+  - crystal-02
+  - player-waiting-06
+  - player-walk-01
+  - player-jet-00
+  - crystal-03
+  - cave-sprites_0
+  - cave-sprites_1
+  - cave-sprites_2
+  - cave-sprites_3
+  - cave-sprites_4
+  - debris-1
+  - player-waiting-04
+  - alien-a-04
+  - crystal-01
+  - player-walk-05
+  - background-mask
+  - crystal-00
+  - splash-player-3
+  - player-waiting-03
+  - player-walk-00
+  - player-walk-07
+  - player-walk-03
+  - alien-a-05
+  - splash-player-0
+  - splash-player-1
+  - debris-4
+  - alien-a-00
+  - crystal-04
+  - player-walk-06
+  - player-idle-00
+  - debris-0
+  - alien-a-03
+  - player-waiting-05
+  - debris-2
+  - player-waiting-07
+  - player-walk-04
+  - player-jet-02
+  - player-waiting-09
+  - player-jet-01
+  - background-image
+  - start-text-off
+  - alien-a-02
+  - start-text-on
+  - debris-7
+  m_Tag: sprite-atlas
+  m_IsVariant: 0
